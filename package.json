@@ -1,0 +1,27 @@
+{
+  "name": "Next_Level_Week",
+  "version": "1.0.0",
+  "description": "<h4 align=\"center\">   🔨 Em desenvolvimento </h4>",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego64/Next-Level-Week-1.0_Stater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego64/Next-Level-Week-1.0_Stater/issues"
+  },
+  "homepage": "https://github.com/diego64/Next-Level-Week-1.0_Stater#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
