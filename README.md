@@ -51,30 +51,7 @@ Os usuários terão acesso ao aplicativo móvel, onde poderão:
 Projeto desenvolvido durante a **NLW - Next Level Week 1.0** oferecida pela [Rocketseat](rs).
 O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
 
-
-## 🎨 Layout
-
-O layout da aplicação está disponível no Figma:
-
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by leon-carvalho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
-
-### Frot-End 💻
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/home-web.svg" width="300px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/cadastro-web.svg" width="200px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./github-assets/sucesso-web.svg" width="300px">
-</p>
-
-<p align="center">
-  
-</p>
-
-## 🔨 Tecnologias utilizadas
+## 🔎 Tecnologias utilizadas
 
 As seguintes tecnologias foram usadas na construção do projeto:
 
@@ -84,7 +61,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 - [CSS][rn]
 - [SQLite][https://www.sqlite.org/index.html]
 
-## 📁 Estrutura do Projeto
+## 📋 Estrutura do Projeto
 
 Podemos considerar este projeto como sendo divido em duas partes:
 1. Back End 
