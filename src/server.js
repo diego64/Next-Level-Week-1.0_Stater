@@ -1,6 +1,9 @@
 const express = require("express");
 const server = express();
 
+//Banco de daddos
+const db = require("./database/db");
+
 //Configuração das Pastas Publicas
 server.use(express.static("public"));
 
@@ -17,12 +20,23 @@ server.get("/", (req, res) => {
 
 //Pagina de cadastro
 server.get("/create-point", (req, res) => {
-    res.render("create-point.html")
+    console.log(req.query)
+
+
+   return res.render("create-point.html")
 });
 
 //Página de procura e resultado de procura
-server.get("/search-results", (req, res) => {
-    res.render("search-results.html")
+server.get("/search", (req, res) => {
+    db.all(`SELECT * FROM places`, function(err, rows) {
+        if(err) {
+            return console.log(err)
+        }
+
+        const total = rows.length;
+
+        res.render("search-results.html", {places: rows, total: total})
+    });
 });
 
 //Start do Servidor 
