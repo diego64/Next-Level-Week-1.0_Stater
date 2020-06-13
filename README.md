@@ -63,9 +63,13 @@ As seguintes tecnologias foram usadas na construção do projeto:
 
 ## 📋 Estrutura do Projeto
 
-Podemos considerar este projeto como sendo divido em duas partes:
-1. Back End 
-2. Front End 
+Podemos considerar este projeto como sendo divido em cinco partes:
+
+1. Criação das páginas HTML e Scripts
+2. Refatoração do código
+3. Desenvolvimento do Back-end
+4. Restrutuação de pastas
+5. Comunicação do back-end com front-end
 
 ### Pré-requisitos
 
