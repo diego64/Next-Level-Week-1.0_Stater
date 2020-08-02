@@ -59,7 +59,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 - [JavaSript][typescript]
 - [HTML][reactjs]
 - [CSS][rn]
-- [SQLite][https://www.sqlite.org/index.html]
+- [SQLite]
 
 ## 📋 Estrutura do Projeto
 
